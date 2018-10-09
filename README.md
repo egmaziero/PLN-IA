@@ -3,10 +3,12 @@ This repository, mainly composed of notebooks, is intented for use during the me
 
 
 ## System environment requirements:
-1. Python 3.5 or superior.
+1. Python (>= 3.7.0)
 2. virtualenv (15.1.0)
 3. virtualenvwrapper (4.8.2)
 4. pip (9.0.1)
+
+Other versions were not tested, but they may work.
 
 ## Initial setup
 After cloning this repository:
@@ -15,19 +17,19 @@ After cloning this repository:
 git clone https://github.com/egmaziero/NLP-IA.git
 ```
 
-You may install the Python requirements. First go into the directory:
-
+You may create a virtual environment:
 ```
-cd NLP-IA
-```
-and run:
-
-```
-pip install -r requeriments.txt
+mkvirtualenv -p python3 NLP-IA_env
 ```
 
-##
+Go into the directory of the repository:
 
+```
+cd NLP-IA && setvirtualenvproject
+```
+And install Python requeriments:
 
-
+```
+pip3 install -r requeriments.txt
+```
 
