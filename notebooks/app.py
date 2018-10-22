@@ -30,7 +30,8 @@ app = Flask(__name__)
 def scorefy():
     query_parameters = request.args
     review = query_parameters.get('r')
-    return final_model.predict(prepare_input(review))[0]
+    score = final_model.predict(prepare_input(review))[0] 
+    return "{}".format(int(score))
 
 
 if __name__ == '__main__':
