@@ -33,7 +33,7 @@ cd NLP-IA && setvirtualenvproject
 And install Python requeriments:
 
 ```
-pip3 install -r requeriments.txt
+pip3 install -r requirements.txt
 ```
 ---
 ## Running notebooks
