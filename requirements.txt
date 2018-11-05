@@ -7,3 +7,4 @@ numpy==1.15.2
 scipy==1.1.0
 flask==1.0.2
 wget==3.2
+gensim==3.6.0
