@@ -1,5 +1,5 @@
 # Grupo de Estudos - PLN+IA
-This repository, mainly composed of notebooks, is intented for use during the meetings of NLP+AI group of studies conducted by professors Erick Galani Maziero and Paula Christina Cardoso, at Computer Science Department of Federal University of Lavras (DCC/UFLA).
+This repository, mainly composed of notebooks, is intented for use during the meetings of PLN+AI group of studies conducted by professors Erick Galani Maziero and Paula Christina Cardoso, at Computer Science Department of Federal University of Lavras (DCC/UFLA).
 
 ---
 
@@ -17,18 +17,18 @@ Other versions were not tested, but they may work.
 After cloning this repository:
 
 ```
-git clone https://github.com/egmaziero/NLP-IA.git
+git clone https://github.com/egmaziero/PLN-IA.git
 ```
 
 You may create a virtual environment:
 ```
-mkvirtualenv -p python3 NLP-IA_env
+mkvirtualenv -p python3 PLN-IA_env
 ```
 
 Go into the directory of the repository:
 
 ```
-cd NLP-IA && setvirtualenvproject
+cd PLN-IA && setvirtualenvproject
 ```
 And install Python requeriments:
 
@@ -41,6 +41,6 @@ pip3 install -r requirements.txt
 Start the notebooks server:
 
 ```
-jupyter notebook
+jupyter lab
 ```
 
