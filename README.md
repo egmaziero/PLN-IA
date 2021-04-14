@@ -1,15 +1,13 @@
 # Grupo de Estudos - PLN+IA
-This repository, mainly composed of notebooks, is intented for use during the meetings of PLN+AI group of studies conducted by professors Erick Galani Maziero and Paula Christina Cardoso, at Computer Science Department of Federal University of Lavras (DCC/UFLA).
+This repository is intented for use during the meetings of PLN+AI study group conducted by professors Erick Galani Maziero and Paula Christina Cardoso, at Department of Applied Computing of Federal University of Lavras (DAC/UFLA).
 
 ---
 
 ## System environment requirements:
-1. Python (>= 3.7.0)
-2. virtualenv (15.1.0)
-3. virtualenvwrapper (4.8.2)
-4. pip (9.0.1)
-
-Other versions were not tested, but they may work.
+1. Python (>= 3.*)
+2. virtualenv
+3. virtualenvwrapper
+4. pip
 
 ---
 
