@@ -6,7 +6,7 @@ scikit-learn==0.19.2
 matplotlib==2.2.3
 numpy
 scipy==1.1.0
-flask==1.0.2
+flask==2.3.2
 wget==3.2
 gensim==3.6.0
 spacy==2.1.3
